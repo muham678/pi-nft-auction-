@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Auction AI - Pi Network</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Pi SDK Resmi -->
+    <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NFT Auction AI</h1>
+            <p>Platform Lelang NFT Terdesentralisasi di Pi Network</p>
+            <div id="user-status" class="status-box">Menghubungkan ke Pi Browser...</div>
+        </header>
+
+        <main>
+            <section class="auction-card">
+                <div class="nft-image-placeholder">🎨</div>
+                <h2>Eksklusif Wukong NFT #01</h2>
+                <p>Karya seni digital langka dalam ekosistem Pi Network.</p>
+                
+                <div class="bid-info">
+                    <span>Bid Tertinggi Saat Ini:</span>
+                    <strong id="highest-bid">10.0 π</strong>
+                </div>
+
+                <div class="timer-box">
+                    <span>Sisa Waktu Lelang:</span>
+                    <strong id="countdown">23:59:59</strong>
+                </div>
+
+                <button id="bid-btn" class="primary-btn">Tawar Sekarang (Bid 10.5 π)</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
